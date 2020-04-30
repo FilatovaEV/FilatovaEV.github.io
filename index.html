@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Питомник Мейн-Кунов в Новосибирске. Первый питомник с расширенным спектром услуг">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Питомник Мейн Кунов</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div style="display:none;">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <symbol id="icon-crown" viewbox="0 0 49 23">
+    </symbol>
+  </svg>
+  </div>
+
+  <header class="header">
+    <div class="header__container container">
+      <div class="header__wrapper">
+        <a class="logo header__logo" aria-label="Логотип питомника Мейн Кунов">
+          <svg class="crown crown--header" width="55" height="25">
+            <use xlink:href="#icon-crown" x="0" y="0"></use>
+          </svg>
+        </a>
+        <div class="header__content">
+          <p class="header__city">Новосибирск</p>
+          <h1 class="header__title">Питомник Мейн-Кунов</h1>
+          <p class="header__lead">Первый питомник с расширенным спектром услуг</p>
+          <a href="#" class="header__btn">Смотреть котиков</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <main>
+    <section class="section pets">
+      <div class="section__wrapper pets__wrapper container">
+        <h2 class="section__title pets__title">Питомцы</h2>
+        <span class="section__lead pets__lead">Все представители нашего питомника имеют ветеринарный паспорт с отметками о прививках и документ с родословной</span>
+        <ul class="pets__list">
+          <li class="pets__item pets__item">
+            <a class="pets__tab pets__tab--active" href="#pets-tab-content-1">Коты</a>
+          </li>
+          <li class="pets__item">
+            <a class="pets__tab" href="#pets-tab-content-2">Кошки</a>
+          </li>
+          <li class="pets__item">
+            <a class="pets__tab" href="#pets-tab-content-3">Котята</a>
+          </li>
+        </ul>
+        
+        <div class="pets__tab-content-wrapper">
+          <div class="pets__tab-content show slider" id="pets-tab-content-1">
+            <div class="pets__slider slider__list slider__container">
+              <div class="gallery slider__wrapper">
+                <div class="gallery__item gallery__item--top slider__slide">
+                  <img class="gallery__item-img gallery__item-img--bottom" src="img/pets-list-2-desktop@2x.png" width="518" height="241" alt="Мейн Кун">
+                </div>
+                
+                <div class="gallery__item gallery__item--bottom slider__slide">
+                  <img class="gallery__item-img gallery__item-img--top" src="img/pets-list-1-desktop@2x.png" width="518" height="382" alt="Мейн Кун">
+                </div>
+                
+                <div class="gallery__item gallery__item--large slider__slide slider__slide--active">
+                  <img class="gallery__item-img gallery__item-img--large" src="img/pets-list-3-desktop@2x.png" width="471" height="485" alt="Мейн Кун">
+                </div>
+              </div>
+            </div>
+
+            <div class="pets__btn-wraper">
+              <a src="#" class="pets__btn">Смотреть больше</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section breed-features">
+      <div class="container">
+        <div class="section__wrapper breed-features__wrapper">
+          <h6 class="section__title breed-features__title">Особенности породы</h6>
+          <p class="section__lead breed-features__lead">
+            Мейн-Кун - это порода, которая вызывает к себе уважение. Приобретая в свой дом этого питомца, вы получите умное животное, которому нет равных
+          </p>
+          <div class="breed-features__image">
+            <img src="img/breed-features-desktop@2x.png" width="602" height="655" alt="Изображение рыжего Мейн Куна">
+          </div>
+          <ul class="breed-features__list">
+            <li class="breed-features__item breed-features__item--cohabitation">
+              Легко уживается в семьях с детьми или другими животными
+            </li>
+            <li class="breed-features__item breed-features__item--instruction">
+              Выполняет команды как дрессированная собака
+            </li>
+            <li class="breed-features__item breed-features__item--weight">
+              Вес может достигать 12 кг, а длина 1 м
+            </li>
+            <li class="breed-features__item breed-features__item--appearance">
+              Внешний вид этой кошки похож на дикую рысь
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</body>
+
+</html>
